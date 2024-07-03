@@ -80,7 +80,7 @@ const Nabvar = () => {
         </li>
     </>
     return (
-        <div className=' '>
+        <div className='bg-slate-800 w-full '>
 
 
             <nav class=" dark:bg-gray-900">

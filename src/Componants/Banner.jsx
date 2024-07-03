@@ -11,7 +11,7 @@ const Banner = () => {
     return (
         <div className='flex '>
             <div className='  text-white space-y-5 lg:w-full md:w-1/2
-             p-4 h-svh'>
+             p-4 '>
                 <p className='font-semibold  animate__animated animate-slower 2s animate__slideInLeft lg:text-2xl md:text-2xl text-xl'>Hi, Myself</p>
                 <h2>
                     <p className='md:text-4xl   animate__animated animate__fadeInLeftBig lg:text-4xl text-2xl font-bold' >Safwan Hossain Mridul</p >
