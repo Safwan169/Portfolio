@@ -1,3 +1,68 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* .text-shadow {
+    text-shadow: 2px 2px 4px rgba(8, 198, 231, 0.644);
+  } */
+
+.df {
+    background-color: rgba(10, 38, 51, 0.4);
+    border-radius: 20px;
+    border: 0px solid rgb(113, 14, 179);
+}
+ .sf:hover .df {
+    border: 2px solid rgb(113, 14, 179);
+    box-sizing: content-box;
+    
+    border-radius: 20px;
+    background-color: rgba(119, 30, 192, 0.2);
+    transition:  0.1s ease-in-out; /* Transition properties */
+   
+ }
+
+ .sf:hover .df .icon {
+    transform: scale(1.2);
+    color: aqua;
+    /* transition-delay: 0.9s; */
+
+ }
+ .sf:hover .df .iconjs {
+    transform: scale(1.2);
+    color: rgb(182, 197, 49);
+    /* transition-delay: 0.9s; */
+
+ }
+ .sf:hover .df .icontail {
+    transform: scale(1.2);
+    color: aqua;
+    /* transition-delay: 0.9s; */
+
+ }
+ .sf:hover .df .iconhtml {
+    transform: scale(1.2);
+    color: rgb(231, 100, 39);
+    /* background: #000; */
+    /* transition-delay: 0.9s; */
+
+ }
+ .sf:hover .df .iconcss {
+    transform: scale(1.2);
+    color: rgb(39, 84, 231);
+    /* background: #000; */
+    /* transition-delay: 0.9s; */
+
+ }
+ .sf:hover .df .iconnode {
+    transform: scale(1.2);
+    color: rgb(14, 143, 21);
+    /* transition-delay: 0.9s; */
+
+ }
+ .sf:hover .df .icondb {
+    transform: scale(1.2);
+    color: rgb(24, 180, 32);
+    /* transition-delay: 0.9s; */
+
+ }

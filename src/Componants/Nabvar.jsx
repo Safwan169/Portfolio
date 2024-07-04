@@ -68,6 +68,18 @@ const Nabvar = () => {
 
         </li>
         <li>
+            <a href="#skills" className='block no-underline my-2 lg:my-0 md:my-0  text-white  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>
+                Skills
+            </a>
+
+        </li>
+        <li>
+            <a href="#edu" className='block no-underline my-2 lg:my-0 md:my-0  text-white  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>
+                Education
+            </a>
+
+        </li>
+        <li>
             <a href="#portfolio" className='block no-underline my-2 lg:my-0 md:my-0  text-white  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-500 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'>
                 Portfolio
             </a>
@@ -101,8 +113,8 @@ const Nabvar = () => {
                             toggleNav ? <div className=''>
                                 <button>
                                 </button>
-                                <ul className='flex-col font-bold bg-blue-900 bg-opacity-35 w-[100px] absolute right-0 top-1'>
-                                    <FiX onClick={handleCross} size={25} className=' relative left-[60%] text-white mt-2 mb-3' />
+                                <ul className='flex-col font-bold bg-blue-900  w-full z-10 absolute right-0 top-1'>
+                                    <FiX onClick={handleCross} size={25} className=' relative left-[89%] text-white mt-2 mb-3' />
 
                                     {
                                         navtext
