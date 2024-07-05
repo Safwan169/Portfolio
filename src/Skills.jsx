@@ -11,7 +11,7 @@ const Skills = () => {
         <div id='skills' className='pt-10 px-3 lg:px-0 text-white text-center'>
             <p className='lg:text-8xl md:text-6xl text-4xl my-10  shadow-cyan-300 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-blue-500 via-cyan-400 to-indigo-600'>My Skills</p>
             <p>As a dedicated web developer, I possess a robust skill set that encompasses both front-end and back-end technologies, <br /> enabling me to create dynamic and responsive web applications.</p>
-            <div className='flex  flex-col lg:flex-row md:flex-row items-center  justify-center gap-10 mt-20'>
+            <div className='flex flex-col  lg:flex-row lg:flex md:grid md:grid-cols-3  items-center  justify-center gap-10 mt-20'>
                 <div className='w-min animate__bounce animate__animated animate__pulse animate__infinite  sf'>
                     <p className='p-10 df' >
                         <IoLogoReact className='icon' size={60} />

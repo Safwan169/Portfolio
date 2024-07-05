@@ -37,10 +37,10 @@ const Contract = () => {
   };
 
   return (
-    <section id='contract' className= "flex flex-col lg:flex-row md:flex-row justify-between lg:gap-10 md:gap-10  items-center  py-12">
-      <div className="rounded-2xl  bg-cyan-950 bg-opacity-20  lg:p-20 md:p-20 p-5 w-full mx-auto px-4 sm:px-6 lg:px-8">
+    <section id='contract' className= "flex flex-col w-full bg-slate-900 h-full relative lg:flex-row  md:flex-row justify-between lg:gap-10 md:gap-10  items-center  py-12">
+      <div className="rounded-2xl  bg-cyan-950 bg-opacity-20  lg:p-20  p-5 w-full mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-extrabold text-center text-white mb-8">Contact <span className='text-cyan-400'> Me</span></h2>
-        <form onSubmit={handleSubmit} className=" shadow overflow-hidden sm:rounded-lg p-6 space-y-6">
+        <form onSubmit={handleSubmit} className=" bg-slate-900 shadow overflow-hidden sm:rounded-lg p-6 w-full space-y-6">
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-gray-500">Name</label>
             <input
