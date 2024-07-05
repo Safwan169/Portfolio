@@ -38,19 +38,17 @@ const Banner = () => {
 
                 </p>
 
-                <p className='text-xl  animate__animated animate__slideInLeft  animate-slower 10s '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laudantium vitae nostrum exercitationem adipisci sunt veritatis rerum quas aperiam labore quo accusantium earum qui sint quibusdam voluptate, architecto consequatur est.
-                    Quos laborum quam asperiores neque dolores animi quidem rerum quia maiores, sed optio harum nemo dolorum corporis, tempora magnam reiciendis ea error, voluptatem sequi minus provident recusandae. Quo, perferendis excepturi?
-                </p>
+                <p className='text-xl  animate__animated animate__slideInLeft  animate-slower 10s '>I am a passionate web developer who loves to learn and enjoys coding. I thrive on solving problems and creating beautiful, functional web applications. My expertise lies in developing seamless user experiences with modern technologies like React and Tailwind CSS. Let's build something amazing together!</p>
                 <div className='flex    text-cyan-500'>
 
                     <a href="">
                         <TiSocialFacebookCircular className='hover:scale-[1.1] shadow-2xl shadow-cyan-500 ' size={40} />
                     </a>
-                    <a href="">
+                    <a href="https://github.com/Safwan169">
                         <DiGithubBadge className='hover:scale-[1.1] shadow-2xl shadow-cyan-500' size={40} />
 
                     </a>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/safwan-hossain-mridul-873802307/">
                         <TiSocialLinkedinCircular className='hover:scale-[1.1] shadow-2xl shadow-cyan-500' size={40} />
 
                     </a>
@@ -63,7 +61,7 @@ const Banner = () => {
             </div>
             <div className=' animate__bounceInDown animate__animated flex h-full md:w-1/2 w-full px-5 lg:w-1/2 mt-20 justify-center    items-center  '>
                 <p className='animate__animated animate__pulse animate__infinite  shadow-[1px_1px_60px_-15px_cyan] 	infinite animate__slow	1s bg-gradient-to-r  from-cyan-500 to-blue-500 rounded-[50%] w-[300px] h-[300px]'>
-                {/* <img className=' h-full  ' src="https://i.ibb.co/QNBpMGt/1720025724159-removebg-preview-fotor-20240703233334.png" alt="" /> */}
+                <img className=' h-full  ' src="https://i.ibb.co/QNBpMGt/1720025724159-removebg-preview-fotor-20240703233334.png" alt="" />
 
                 </p>
             </div>

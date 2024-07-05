@@ -23,17 +23,19 @@ const Contract = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsLoading(true);
-    axios.post('http://localhost:5000/send-email', formData)
-      .then(response => {
+
         setStatusMessage('Email sent successfully!');
-        setFormData({ name: '', email: '', message: '' });
-        setIsLoading(false);
-      })
-      .catch(error => {
-        setStatusMessage('Error sending email.');
-        // console.error('There was an error!', error);
-        setIsLoading(false);
-      });
+
+    // axios.post('http://localhost:5000/send-email', formData)
+    //   .then(response => {
+    //     setFormData({ name: '', email: '', message: '' });
+    //     setIsLoading(false);
+    //   })
+    //   .catch(error => {
+    //     // setStatusMessage('Error sending email.');
+    //     // console.error('There was an error!', error);
+    //     setIsLoading(false);
+    //   });
   };
 
   return (

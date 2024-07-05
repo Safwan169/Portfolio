@@ -10,6 +10,7 @@ import Portfolio from './Portfolio'
 import Skills from './Skills'
 import Education from './Education'
 import Contract from './Contract'
+import Footer from './Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,6 +35,8 @@ function App() {
         <div>
 
         </div>
+        <Footer></Footer>
+
 
       </div>
 
