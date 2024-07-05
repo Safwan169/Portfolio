@@ -22,7 +22,7 @@ function App() {
         </div>
         <div className='lg:mx-20 md:space-y-20 lg:space-y-20 md:mx-16 mx-auto'>
           <Banner> </Banner>
-          <About></About>
+          {/* <About></About> */}
           <Skills></Skills>
           <Education></Education>
           <Portfolio></Portfolio>
