@@ -26,16 +26,16 @@ const Contract = () => {
 
         setStatusMessage('Email sent successfully!');
 
-    // axios.post('http://localhost:5000/send-email', formData)
-    //   .then(response => {
-    //     setFormData({ name: '', email: '', message: '' });
-    //     setIsLoading(false);
-    //   })
-    //   .catch(error => {
-    //     // setStatusMessage('Error sending email.');
-    //     // console.error('There was an error!', error);
-    //     setIsLoading(false);
-    //   });
+    axios.post('http://localhost:5000/send-email', formData)
+      .then(response => {
+        setFormData({ name: '', email: '', message: '' });
+        setIsLoading(false);
+      })
+      .catch(error => {
+        // setStatusMessage('Error sending email.');
+        // console.error('There was an error!', error);
+        setIsLoading(false);
+      });
   };
 
   return (

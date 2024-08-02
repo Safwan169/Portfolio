@@ -57,7 +57,7 @@ const Banner = () => {
                     </a>
 
                 </div>
-                <button className='shadow-cyan-600 shadow-2xl bg-cyan-500 rounded-full mt-5 hover:scale-[1.01] text-black p-3 px-6  font-bold'>Download CV</button>
+                <button  className='shadow-cyan-600 shadow-2xl bg-cyan-500 rounded-full mt-5 hover:scale-[1.01] text-black p-3 px-6  font-bold'><a href='https://drive.google.com/file/d/1_a2Wlcf6WFn6Dy6GMmmEvkmAonHkriXR/view?usp=sharing'>Download CV</a></button>
             </div>
             <div className=' animate__bounceInDown animate__animated flex h-full md:w-1/2 w-full px-5 lg:w-1/2 mt-20 justify-center    items-center  '>
                 <p className='animate__animated animate__pulse animate__infinite  shadow-[1px_1px_60px_-15px_cyan] 	infinite animate__slow	1s bg-gradient-to-r  from-cyan-500 to-blue-500 rounded-[50%] w-[300px] h-[300px]'>
